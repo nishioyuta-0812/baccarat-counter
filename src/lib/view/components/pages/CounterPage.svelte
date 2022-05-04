@@ -20,7 +20,6 @@ import ProbabilityContainer from "../organisms/ProbabilityContainer.svelte";
 
   $: totalCount = () => {
     const exit = $ace + $two + $three + $four + $five + $six + $seven + $eight + $nine + $ten + $jack + $queen + $king;
-    console.log(exit);
     return 416 - exit;
   } 
 
